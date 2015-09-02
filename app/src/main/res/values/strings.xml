@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Footprint_v1</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_sign_up">SignUp</string>
+    <string name="title_activity_feed">Feed</string>
+    <string name="title_activity_profile">ProfileActivity</string>
+    <string name="title_activity_post">PostActivity</string>
+    <string name="title_activity_take_photo">TakePhotoActivity</string>
+</resources>
