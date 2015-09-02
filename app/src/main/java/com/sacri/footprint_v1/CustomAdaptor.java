@@ -25,7 +25,7 @@ class CustomAdaptor extends ArrayAdapter<PostDetails> {
         ImageView profileImageView = (ImageView) customView.findViewById(R.id.postImageView);
 
         profileText.setText(postDetails.getPostText());
-        profileImageView.setImageBitmap(postDetails.getImage().getPostImage());
+//        profileImageView.setImageBitmap(postDetails.getImage().getPostImage());
 
         return customView;
     }

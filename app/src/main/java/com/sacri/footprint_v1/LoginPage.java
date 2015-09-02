@@ -84,6 +84,7 @@ public class LoginPage extends AppCompatActivity {
         userLocalStore.storeUserData(userDetails);
         userLocalStore.setUserLoggedIn(true);
 
-        startActivity(new Intent(this, Feed.class));
+//        startActivity(new Intent(this, Feed.class));
+        startActivity(new Intent(this, ProfileActivity.class));
     }
 }
